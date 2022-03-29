@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css'
 import useSWR from 'swr'
 
+// @ts-ignore
 const fetcher = (...args) => fetch(...args).then((res) => res.text())
 
 export default function Home() {
